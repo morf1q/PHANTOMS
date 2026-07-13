@@ -507,6 +507,11 @@
     color: #4ade80;
   }
 
+  .badge-loss {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #f87171;
+  }
   /* GALLERY */
   .gallery-grid {
     display: grid;
@@ -910,7 +915,7 @@
         <h3>Phantoms <span style="color:var(--gray-mid)">vs</span> Iroquois</h3>
         <p>📍 <span data-i18n="city_irpin">Рівне</span> · 12:00</p>
       </div>
-      <div class="game-badge badge-win" data-i18n="badge_win">Поразка</div>
+     <div class="game-badge badge-loss">Поразка</div>
     </div>
     <div class="game-card">
       <div class="game-date">
@@ -949,23 +954,25 @@
   <div class="gallery-grid">
     <!-- Головне фото команди (featured — займає 2 колонки і 2 ряди) -->
     <div class="gallery-item featured">
-      <img src="photo_2026-06-21_22-51-10.jpg" alt="Команда Phantoms"
-        onerror="this.parentElement.innerHTML='<div class=\'gallery-placeholder\'><span class=\'plus\'>+</span><span>Додай фото</span></div>'">
+      <img src="photo/php1.jpg" alt="Команда Phantoms">
     </div>
     <!-- Решта — додай свої фото, замінивши src -->
     <div class="gallery-item">
-      <div class="gallery-placeholder"><span class="plus">+</span><span data-i18n="add_photo">Додай фото</span></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder"><span class="plus">+</span><span data-i18n="add_photo">Додай фото</span></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder"><span class="plus">+</span><span data-i18n="add_photo">Додай фото</span></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder"><span class="plus">+</span><span data-i18n="add_photo">Додай фото</span></div>
-    </div>
+    <img src="photo/php2.jpg" alt="Фото 1">
   </div>
+  
+  <div class="gallery-item">
+    <img src="photo/php3.jpg" alt="Фото 2">
+  </div>
+
+  <div class="gallery-item">
+    <img src="photo/php4.jpg" alt="Фото 3">
+  </div>
+
+  <div class="gallery-item">
+    <img src="photo/php5.jpg" alt="Фото 4">
+  </div>
+</div>
 </section>
 
 <div class="section-divider"></div>
